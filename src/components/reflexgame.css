@@ -1,0 +1,60 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.scoreboard {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.scoreboard h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.lights-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.go-text {
+  font-size: 5rem;
+  font-weight: bold;
+  color: green;
+}
+
+.winner-text {
+  font-size: 2.5rem;
+  color: gold;
+}
+
+.instruction-text {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  margin-top: 20px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
